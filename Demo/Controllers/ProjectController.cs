@@ -58,7 +58,7 @@ public class ProjectController : ControllerBase
     }
 
     [HttpPost("MapProject")]
-    public async Task<ActionResult> Update([FromBody] ProjectMappingVM newMapping)
+    public async Task<ActionResult> Update([FromBody] DetailVM newMapping)
     {
         try
         {
@@ -69,12 +69,12 @@ public class ProjectController : ControllerBase
             {
                 ProjectId = newMapping.ProjectId,
                 EmployeeId = newMapping.EmployeeId,
-                CreatedTime = DateTime.Now,
+                CreatedTime = DateTime.Now
             };
 
             await _dbContext.Details.AddAsync(mapping);
             await _dbContext.SaveChangesAsync();
-            return Ok(newMapping);
+            return Ok(mapping);
         }
         catch (Exception ex)
         {

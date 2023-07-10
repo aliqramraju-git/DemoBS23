@@ -52,7 +52,7 @@ public class DetailController : ControllerBase
                     projectId = element.ProjectId,
                     projectName = element.Project.Name,
                     createdTime = element.CreatedTime.ToString("dd/MMM/yyyy hh:mm tt")
-                }).FirstOrDefault();
+                }).ToList();
             if (result is null) return Ok("This detail mapping is not exist!");
             return Ok(result);
 
