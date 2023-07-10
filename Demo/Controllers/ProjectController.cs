@@ -1,7 +1,6 @@
 ﻿using Domain;
 using Microsoft.AspNetCore.Mvc;
 using Persistence;
-using System.Security.Claims;
 
 namespace Demo.Controllers;
 
@@ -80,6 +79,5 @@ public class ProjectController : ControllerBase
         {
             throw;
         }
-
     }
 }
