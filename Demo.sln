@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{F78C30B5-A3E2-434D-AFEC-B15BE4D4C9D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBS23", "DemoBS23\DemoBS23.csproj", "{F78C30B5-A3E2-434D-AFEC-B15BE4D4C9D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{ACD7C48A-B6E8-49CF-8761-3B9AC42F9F14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBS23.Domain", "DemoBS23.Domain\DemoBS23.Domain.csproj", "{ACD7C48A-B6E8-49CF-8761-3B9AC42F9F14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{1D8F3E24-65BA-4D6D-892F-6C22C55F3EFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBS23.Persistence", "DemoBS23.Persistence\DemoBS23.Persistence.csproj", "{1D8F3E24-65BA-4D6D-892F-6C22C55F3EFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{D5EEB950-12E8-4FFC-8122-B90548301F3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBS23.Infrastructure", "DemoBS23.Infrastructure\DemoBS23.Infrastructure.csproj", "{D5EEB950-12E8-4FFC-8122-B90548301F3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{BD9558DE-F010-4D68-A2B6-BD7655CD16A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBS23.Service", "Service\DemoBS23.Service.csproj", "{BD9558DE-F010-4D68-A2B6-BD7655CD16A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

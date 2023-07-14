@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Persistence;
 
-namespace Demo.Controllers;
+namespace DemoBS23.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
