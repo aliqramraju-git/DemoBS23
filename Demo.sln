@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBS23.Persistence", "Dem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBS23.Infrastructure", "DemoBS23.Infrastructure\DemoBS23.Infrastructure.csproj", "{D5EEB950-12E8-4FFC-8122-B90548301F3B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBS23.Service", "Service\DemoBS23.Service.csproj", "{BD9558DE-F010-4D68-A2B6-BD7655CD16A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoBS23.Service", "DemoBS23.Service\DemoBS23.Service.csproj", "{BD9558DE-F010-4D68-A2B6-BD7655CD16A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
